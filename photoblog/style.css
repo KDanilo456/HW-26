@@ -68,9 +68,6 @@ ul{
     padding: 0 15px;
     padding-inline-start: 0px;
 }
-.navigation-list{
-    padding-bottom: 24px;
-}
 .nav-site{
     padding-top: 208px;
 }
@@ -957,4 +954,30 @@ textarea:focus{
 }
 .subscribe-form-section-nav-portfolio{
     margin-top: 56px;
+}
+.studio-navigate::after{
+    content: "";
+    border: solid var(--blue);
+    background-color: var(--blue);
+    position: absolute;
+    top: 87px;
+    width: 46px;
+    border-radius: 2px;
+    display: flex;
+}
+.studio-navigate{
+    color: var(--blue);
+}
+.portfolio-navigate::after{
+    content: "";
+    border: solid var(--blue);
+    background-color: var(--blue);
+    position: absolute;
+    top: 87px;
+    width: 74px;
+    border-radius: 2px;
+    display: flex;
+}
+.portfolio-navigate{
+    color: var(--blue);
 }
